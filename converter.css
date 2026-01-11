@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 380px;
+}
+
+.card{
+    padding: 25px;
+    border-radius: 14px;
+    background: linear-gradient(180deg,#2a2a2f,#1c1c21);
+    box-shadow: 0 0 30px rgba(117,111,111,0.6);
+}
+
+.card h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.row{
+    display: flex;
+    gap: 10px;
+}
+
+input{
+    flex: 1;
+    background: #3c3b3b;
+    color: white;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+select{
+    width: 90px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.swap{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    background: #111;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #555;
+}
