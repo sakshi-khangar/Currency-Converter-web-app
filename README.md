@@ -13,5 +13,11 @@ Currency Converter is a simple web-based application that helps users convert mo
 - CSS – Styling
 - JavaScript – Conversion logic
 
+## File Description
+- converter.html – App structure
+- converter.css – App styling
+- converter.js – Conversion logic
+- currency output.png – Final UI output
+
 ## Conclusion
 This Currency Converter project demonstrates how to build a simple and functional web application using HTML, CSS, and JavaScript. It uses a live exchange rate API to provide real-time currency conversion, helping beginners understand API integration, asynchronous JavaScript, and DOM manipulation. The project is easy to use, beginner-friendly, and suitable for learning and practice.
